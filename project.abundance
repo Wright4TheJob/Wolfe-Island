@@ -1,13 +1,41 @@
 {
     "atomType": "Molecule",
-    "name": "Wolfe Island",
+    "name": "Wolfe-Island",
     "x": 0,
     "y": 0,
     "uniqueID": "69f29cf6-9b55-40f5-a016-872b8a10a2b1",
     "ioValues": [],
     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
     "topLevel": true,
-    "allAtoms": [],
+    "allAtoms": [
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.98,
+            "y": 0.5,
+            "uniqueID": "86e1c02e-cedb-49d0-bb1e-b09ebe164bc7",
+            "ioValues": [],
+            "description": "Connect geometry here to make it available in the next level up. "
+        },
+        {
+            "atomType": "Import",
+            "name": "Import",
+            "x": 0.41911262798634813,
+            "y": 0.5661764705882353,
+            "uniqueID": "ad4383e6-36d6-4aad-a184-4212844be19f",
+            "ioValues": [
+                {
+                    "name": "SVG Width",
+                    "ioValue": 5
+                }
+            ],
+            "description": "Import Atom, let's you choose a type of file to import and use in your design.",
+            "fileName": "Wolfe Island Outline.svg",
+            "type": "SVG",
+            "repoOwner": "Wright4TheJob",
+            "repoName": "Wolfe-Island"
+        }
+    ],
     "allConnectors": [],
     "unitsKey": "MM",
     "fileTypeVersion": 1,
